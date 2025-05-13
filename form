@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Employee Registration Form</title>
+</head>
+
+<body>
+  <h1>Job Application Form</h1>
+  <form>
+    <fieldset>
+      <legend>personal information</legend>
+      <table>
+        <tr>
+      <td><lable for="fname">
+        First Name </lable></td>
+      <td><input type="text" required></input/td>
+      </tr>
+      <tr>
+      <td><lable for="lname">
+        Lastst Name </lable></td>
+      <td><input type="text" required></input></td>
+      </tr>
+      <tr>
+      <td><lable for="dob">
+        Date Of Birth </lable></td>
+      <td><input type="date" required name="dob"></input></td>
+      </tr>
+      <tr>
+      <td><label>Gender</label></td>
+      <td><input type="radio" name="gender" value="male">male</td>
+      <td><input type="radio" name="gender" value="female">female</td>
+      <td><input type="radio" name="gender" value="O">Others</td>
+      </tr>
+      <tr>
+      <td><lable>upload picture</lable></td>
+      <td><input type="file" name="pic"></td>
+      </tr>
+      </table>
+    </fieldset>
+    <fieldset>
+      <legend>contact information</legend>
+      <table>
+       <tr>
+         <td><lable>email</lable></td>
+         <td><input type="email" required name="e"></td>
+       </tr>
+       <tr>
+         <td><lable>phone number</lable></td>
+         <td><input type="text" required name="pn"></td>
+       </tr>
+       <tr>
+         <td><lable>Address</lable></td>
+         <td><input type="text"  name="address"></td>
+       </tr>
+      <tr>
+         <td><lable>contry</lable></td>
+         <td><select name="country" >
+           <option>India</option>
+           <option>USA</option>
+           <option>RUSSIA</option>
+         </select></td>
+       </tr>
+      </table>
+    </fieldset>
+    <fieldset>
+      <legend>education details</legend>
+      <table>
+        <tr>
+        <td><label>Highest Qualification</td>
+        <td><select name="hq">
+          <option>P.G</option>
+          <option>U.G</option>
+          <option>INTER</option>
+        </select></td>
+        </tr>
+        <tr>
+          <td><label>specialization</td>
+          <td><input type="text" required name="sp"></td>
+        </tr>
+        <tr>
+          <td><label>year of graduation</label></td>
+          <td><input type="text"required name="yop"></td>
+        </tr>
+      </table>
+    </fieldset>
+    <fieldset>
+    <legend>job preferences</legend>
+    <table>
+    <tr>
+    <td><label>Preferred role</label></td>
+    <td><input type="text" name="text"></td>
+    </tr>
+    <tr>
+      <td><label>expected salary</label></td>
+      <td><input type="text" name="sal"></td>
+    </tr>
+    <tr>
+      <td><label>preferred location</label></td>
+      <td><input type="checkbox">Bangalore 
+      <input type="checkbox">Hyderabad
+      <input type="checkbox">chennai</td>
+    </tr>
+    </table>
+    </fieldset>
+    <fieldset>
+      <legend>Create Password</legend>
+      <table>
+        <tr>
+          <td><label>password</label></td>
+          <td><input type="password" minlength="8"></td>
+        </tr><tr>
+          <td><label>Confirm Password</label></td>
+          <td><input type="password"></td>
+        </tr>
+      </table>
+    </fieldset>
+    <fieldset>
+      <legend>Resume</legend>
+      <table>
+        <tr>
+          <td><label>Upload Resume</label></td>
+          <td><input type="file" required name="doc"></td>
+          </tr>
+      </table>
+    </fieldset>
+    <fieldset>
+      <legend>Aggreement</legend>
+     <input type="checkbox" required name="agre">  
+      <label>i aggree these terms and conditions</label>
+    </fieldset>
+    <input type="submit">
+    <input type="reset">
+  </form>
+  
+</body>
+
+</html>
